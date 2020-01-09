@@ -8,7 +8,11 @@ const app = express();
 
 // conexion a DB
 const mongoose = require('mongoose');
-const uri = 'mongodb://localhost:27017/udemy';
+
+// const uri = 'mongodb://localhost:27017/udemy';
+// conexion en la nube
+const uri = 'mongodb+srv://user_udemy:B5itBMDjeHpTi627@udemy-8a5au.mongodb.net/udemy?retryWrites=true&w=majority';
+
 const options = {
 	useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true
 }
